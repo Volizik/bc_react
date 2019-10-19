@@ -1,0 +1,1 @@
+export const SET_DIALOGS_LIST = 'SET_DIALOGS_LIST';
