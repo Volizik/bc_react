@@ -1,1 +1,2 @@
 export const SET_DIALOGS_LIST = 'SET_DIALOGS_LIST';
+export const SET_USERS_LIST = 'SET_USERS_LIST';

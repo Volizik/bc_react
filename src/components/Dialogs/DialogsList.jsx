@@ -14,7 +14,10 @@ const useStyles = makeStyles(theme => ({
 
 export const DialogsList = () => {
     const classes = useStyles();
-    const users = useSelector(state => state.dialog.list);
+    const users = useSelector(state => state.dialog.users);
+    const dialogs = useSelector(state => state.dialog.list);
+
+    console.log(dialogs)
 
     return (
         <List className={classes.root}>

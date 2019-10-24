@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme => ({
         padding: theme.spacing(3, 2),
     },
     message: {
-        marginTop: '10px',
+        margin: '10px',
     }
 }));
 

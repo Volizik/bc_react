@@ -56,7 +56,7 @@ export const LoginView = () => {
 
     const onSubmitHandler = async (values, actions) => {
         const response = await signIn(values);
-        console.log(response);
+
         actions.setSubmitting(false);
         if (response && response.status === 200) {
             setCookie('Authorization', `Bearer ${response.data.accessToken}`);
